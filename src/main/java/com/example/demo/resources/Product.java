@@ -1,9 +1,10 @@
-package com.example.demo.product;
+package com.example.demo.resources;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 
 @Entity
 public class Product {
@@ -23,7 +24,10 @@ public class Product {
 	private double buyingPrice;
 	private double sellingPrice;
 	private double reorderLevel;
+
+
 	
+
 	//need to add product category, and product pricing id
 	
 

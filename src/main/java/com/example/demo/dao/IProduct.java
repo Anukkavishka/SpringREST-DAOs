@@ -2,7 +2,7 @@ package com.example.demo.dao;
 
 import java.util.List;
 
-import com.example.demo.product.Product;
+import com.example.demo.resources.Product;
 
 public interface IProduct {
 	

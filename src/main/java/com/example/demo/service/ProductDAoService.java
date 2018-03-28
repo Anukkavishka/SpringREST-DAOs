@@ -1,12 +1,16 @@
-package com.example.demo.dao;
+package com.example.demo.service;
 
 import java.util.List;
+
+import javax.transaction.Transactional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.demo.product.Product;
+import com.example.demo.dao.IProduct;
+import com.example.demo.resources.Product;
 
-
+@Transactional
 @Service
 public class ProductDAoService {
 

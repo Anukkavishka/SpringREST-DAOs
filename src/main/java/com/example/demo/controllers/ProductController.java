@@ -1,4 +1,4 @@
-package com.example.demo.product;
+package com.example.demo.controllers;
 
 
 import java.util.List;
@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.dao.ProductDAoService;
+import com.example.demo.resources.Product;
+import com.example.demo.service.ProductDAoService;
 
 @RestController
 public class ProductController {
